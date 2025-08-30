@@ -120,8 +120,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" dir="ltr">
+      <body> 
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>
